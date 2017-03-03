@@ -1,0 +1,23 @@
+{
+  "name": "Riot",
+  "version": "1.0.0",
+  "description": "Riot - A Matrix client",
+  "main": "index.js",
+  "author": "SteamGorilla",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://riot.im/app/#/login",
+    "serviceName": "riot",
+    "message": "Riot is a place to connect with teams.",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
